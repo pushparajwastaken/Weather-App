@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const temperature = document.getElementById("temperature");
   const description = document.getElementById("description");
   const errormessage = document.getElementById("error-message");
-  const api_key = "827c3ad9b3a539ac7f53caa6bb64de3f"; //api key from open weather app {this is unique for everyone and can be charged money for if it is paid}
+  const api_key = //insert your own api key from openweather app; //api key from open weather app {this is unique for everyone and can be charged money for if it is paid}
   input.addEventListener("click", async () => {
     const cityname = city.value.trim();
     if (!cityname) return;
