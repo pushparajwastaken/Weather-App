@@ -1,9 +1,9 @@
-/* General Reset */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #0d1b2a; /* Dark bluish background */
-  color: #e0e6ed; /* Light text with a bluish tint */
+  background-color: #0d1b2a; 
+  color: #e0e6ed; 
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -16,54 +16,50 @@ body {
   text-align: center;
 }
 
-/* Card with a lighter bluish shade */
+
 .card {
-  background-color: #1b263b; /* Slightly lighter dark blue */
+  background-color: #1b263b; 
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
   padding: 20px 40px;
   max-width: 400px;
   width: 100%;
   transition: background-color 0.3s ease, color 0.3s ease;
-  color: #e0e6ed; /* Consistent with body text */
+  color: #e0e6ed;
 }
 
-/* Input Field */
 input[type="text"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #415a77; /* Subtle blue border */
+  border: 1px solid #415a77; 
   border-radius: 5px;
   font-size: 16px;
-  background-color: #1e3050; /* Darker blue input background */
-  color: #e0e6ed; /* Light text */
+  background-color: #1e3050; 
+  color: #e0e6ed; 
   transition: border-color 0.3s ease, background-color 0.3s ease;
 }
 
 input[type="text"]:focus {
   outline: none;
-  border-color: #0077ff; /* Bright blue focus border */
+  border-color: #0077ff; 
 }
 
-/* Buttons */
 button {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #0077ff; /* Bright blue button */
+  background-color: #0077ff; 
   color: white;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
-  background-color: #005bb5; /* Darker blue on hover */
+  background-color: #005bb5; 
   opacity: 0.95;
 }
-
-/* Error Message */
 #error-message {
   margin-top: 20px;
   padding: 10px 15px;
@@ -71,29 +67,25 @@ button:hover {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  color: #f8d7da; /* Light red text for errors */
-  background-color: #721c24; /* Dark red background */
-  border: 1px solid #a71d2a; /* Dark red border */
+  color: #f8d7da; 
+  background-color: #721c24;
+  border: 1px solid #a71d2a;
   transition: opacity 0.3s ease;
 }
-
-/* Hide Elements */
 .hidden {
   opacity: 0;
   pointer-events: none;
   height: 0;
   overflow: hidden;
 }
-
-/* Additional Styling for Elements Inside the Card */
 .card p {
   margin: 10px 0;
   font-size: 18px;
-  color: #a1c3d1; /* Softer bluish text color for contrast */
+  color: #a1c3d1; 
 }
 
 .card h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  color: #e0e6ed; /* Main title consistent with body text */
+  color: #e0e6ed;
 }
