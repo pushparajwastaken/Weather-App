@@ -1,4 +1,4 @@
-Here’s a clean and professional **README** for your Weather App repository:  
+ 
 
 ---
 
