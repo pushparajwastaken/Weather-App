@@ -4,7 +4,7 @@ Here’s a clean and professional **README** for your Weather App repository:
 
 ### 📌 **Weather App**  
 
-![Weather App Preview](https://via.placeholder.com/800x400?text=Weather+App+Preview)  
+  
 
 A simple and elegant weather application that provides real-time weather updates for any location. Built with modern frontend technologies.  
 
