@@ -46,14 +46,6 @@ npm install
 npm start
 ```
 
----
-
-  
-
----
-
-## 🌍 **Live Demo**  
-🔗 **[Weather App Live](#)** _(Add your deployment link here)_  
 
 ---
 
